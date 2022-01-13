@@ -27,8 +27,8 @@
   '--..' => 'z'
 }
 
-def decode_char(char)
-  puts @morse_code[      ].upcase
+def decode_char(_char)
+  puts @morse_code[char].upcase
 end
 
-decode_char( '.-' )
+decode_char('.-')
