@@ -28,7 +28,7 @@
 }
 
 def decode_char(char)
-  puts @morse_code[char].upcase
- end
+  puts @morse_code[      ].upcase
+end
 
- decode_char(".-")
+decode_char('.-')
