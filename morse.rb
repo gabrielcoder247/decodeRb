@@ -22,7 +22,7 @@ def decode(str)
   sentence_split = str.split('   ')
   full_sentence_decoded = ''
   sentence_split.each do |word|
-    full_sentence_decoded += "#{decode_word(word)}  #{full_sentence_decoded}"
+    full_sentence_decoded += "#{decode_word(word)} "
   end
   full_sentence_decoded.strip
 end
